@@ -1,0 +1,6 @@
+- id: jscs
+  name: JSCS
+  description: Runs JSCS over files
+  entry: pre_commit_hooks/jscs.sh
+  language: script
+  files: \.js$
